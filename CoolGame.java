@@ -7,5 +7,6 @@ public class CoolGame
         die1.roll();
         int value = die1.onTop();
         System.out.println("value = " + value);
+        System.out.println(Die.getNumDice());
     }
 }
