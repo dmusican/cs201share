@@ -1,10 +1,12 @@
-public class Shape {
+public interface Shape {
 
-    public double area() {
-        return 0;
-    }
-
-    public double perimeter() {
-        return 0;
-    }
+    public double area();
+    public double perimeter();
 }
+
+
+// public abstract class Shape {
+
+//     public abstract double area();
+//     public abstract double perimeter();
+// }

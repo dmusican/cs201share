@@ -1,4 +1,5 @@
-public class Circle extends Shape {
+public class Circle implements Shape {
+//public class Circle extends Shape {
     private int radius;
 
     public Circle() {
