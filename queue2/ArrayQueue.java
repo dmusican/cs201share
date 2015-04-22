@@ -4,7 +4,8 @@ class ArrayQueue<E> {
     private int count;
     
     public ArrayQueue(int capacity) {
-        items = new E[capacity];
+        //items = new E[capacity]; // so sad. wahhh.
+        items = (E[])new Object[capacity]; /// yuccckkkkk, but the right way
         count = 0;
     }
 
